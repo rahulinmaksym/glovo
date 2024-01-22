@@ -20,6 +20,6 @@ public class Order {
     private LocalDate date;
     private Double cost;
     @OneToMany(cascade = CascadeType.ALL)
-    private List<Product> product;
+    private List<Product> products;
 }
 
