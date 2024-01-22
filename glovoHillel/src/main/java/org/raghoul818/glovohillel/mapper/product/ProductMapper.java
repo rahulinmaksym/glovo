@@ -1,8 +1,8 @@
-package org.raghoul818.glovohillel.mapper;
+package org.raghoul818.glovohillel.mapper.product;
 
 import org.mapstruct.Mapper;
-import org.raghoul818.glovohillel.dto.ProductDto;
-import org.raghoul818.glovohillel.model.Product;
+import org.raghoul818.glovohillel.dto.product.ProductDto;
+import org.raghoul818.glovohillel.model.product.Product;
 
 import java.util.List;
 

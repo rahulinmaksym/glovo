@@ -1,11 +1,12 @@
-package org.raghoul818.glovohillel.service;
+package org.raghoul818.glovohillel.service.order;
 
 import lombok.RequiredArgsConstructor;
-import org.raghoul818.glovohillel.dto.OrderDto;
-import org.raghoul818.glovohillel.dto.ProductDto;
-import org.raghoul818.glovohillel.mapper.OrderMapper;
-import org.raghoul818.glovohillel.model.Order;
-import org.raghoul818.glovohillel.repository.OrderRepository;
+import org.raghoul818.glovohillel.dto.order.OrderDto;
+import org.raghoul818.glovohillel.dto.product.ProductDto;
+import org.raghoul818.glovohillel.mapper.order.OrderMapper;
+import org.raghoul818.glovohillel.model.order.Order;
+import org.raghoul818.glovohillel.repository.order.OrderRepository;
+import org.raghoul818.glovohillel.service.product.ProductService;
 import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
@@ -18,7 +19,7 @@ public class OrderServiceImpl implements OrderService {
     private final OrderMapper orderMapper;
     private final ProductService productService;
 
-    public Order optionalToEntity(Optional<Order> optionalOfOrder) {
+    private Order optionalToEntity(Optional<Order> optionalOfOrder) {
         Order order = new Order();
         if(optionalOfOrder.isPresent()) {
             order = optionalOfOrder.get();

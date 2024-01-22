@@ -1,7 +1,9 @@
-package org.raghoul818.glovohillel.model;
+package org.raghoul818.glovohillel.model.order;
 
 import lombok.*;
 import jakarta.persistence.*;
+import org.raghoul818.glovohillel.model.product.Product;
+
 import java.time.LocalDate;
 import java.util.List;
 

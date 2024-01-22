@@ -1,6 +1,6 @@
-package org.raghoul818.glovohillel.service;
+package org.raghoul818.glovohillel.service.order;
 
-import org.raghoul818.glovohillel.dto.OrderDto;
+import org.raghoul818.glovohillel.dto.order.OrderDto;
 
 import java.util.List;
 

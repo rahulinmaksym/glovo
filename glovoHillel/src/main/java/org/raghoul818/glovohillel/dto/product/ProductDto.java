@@ -1,4 +1,4 @@
-package org.raghoul818.glovohillel.dto;
+package org.raghoul818.glovohillel.dto.product;
 
 import lombok.*;
 

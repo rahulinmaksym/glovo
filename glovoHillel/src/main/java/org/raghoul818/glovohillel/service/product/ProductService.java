@@ -1,6 +1,6 @@
-package org.raghoul818.glovohillel.service;
+package org.raghoul818.glovohillel.service.product;
 
-import org.raghoul818.glovohillel.dto.ProductDto;
+import org.raghoul818.glovohillel.dto.product.ProductDto;
 import java.util.List;
 
 public interface ProductService {

@@ -1,4 +1,4 @@
-package org.raghoul818.glovohillel.service;
+package org.raghoul818.glovohillel.service.product;
 
 import org.junit.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -7,14 +7,15 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.raghoul818.glovohillel.dto.ProductDto;
-import org.raghoul818.glovohillel.mapper.ProductMapper;
-import org.raghoul818.glovohillel.model.Product;
-import org.raghoul818.glovohillel.repository.ProductRepository;
+import org.raghoul818.glovohillel.dto.product.ProductDto;
+import org.raghoul818.glovohillel.mapper.product.ProductMapper;
+import org.raghoul818.glovohillel.model.product.Product;
+import org.raghoul818.glovohillel.repository.product.ProductRepository;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-import static org.junit.Assert.*;
+
 import static org.junit.jupiter.api.Assertions.assertThrowsExactly;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyInt;

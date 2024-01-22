@@ -1,8 +1,8 @@
-package org.raghoul818.glovohillel.controller;
+package org.raghoul818.glovohillel.controller.order;
 
 import lombok.RequiredArgsConstructor;
-import org.raghoul818.glovohillel.dto.OrderDto;
-import org.raghoul818.glovohillel.service.OrderService;
+import org.raghoul818.glovohillel.dto.order.OrderDto;
+import org.raghoul818.glovohillel.service.order.OrderService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.util.CollectionUtils;

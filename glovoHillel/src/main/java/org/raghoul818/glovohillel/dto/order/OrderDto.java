@@ -1,6 +1,7 @@
-package org.raghoul818.glovohillel.dto;
+package org.raghoul818.glovohillel.dto.order;
 
 import lombok.*;
+import org.raghoul818.glovohillel.dto.product.ProductDto;
 
 import java.util.List;
 

@@ -1,10 +1,10 @@
-package org.raghoul818.glovohillel.service;
+package org.raghoul818.glovohillel.service.product;
 
 import lombok.RequiredArgsConstructor;
-import org.raghoul818.glovohillel.dto.ProductDto;
-import org.raghoul818.glovohillel.mapper.ProductMapper;
-import org.raghoul818.glovohillel.model.Product;
-import org.raghoul818.glovohillel.repository.ProductRepository;
+import org.raghoul818.glovohillel.dto.product.ProductDto;
+import org.raghoul818.glovohillel.mapper.product.ProductMapper;
+import org.raghoul818.glovohillel.model.product.Product;
+import org.raghoul818.glovohillel.repository.product.ProductRepository;
 import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;

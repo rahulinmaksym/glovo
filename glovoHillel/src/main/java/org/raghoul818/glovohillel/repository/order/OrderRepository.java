@@ -1,6 +1,6 @@
-package org.raghoul818.glovohillel.repository;
+package org.raghoul818.glovohillel.repository.order;
 
-import org.raghoul818.glovohillel.model.Order;
+import org.raghoul818.glovohillel.model.order.Order;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

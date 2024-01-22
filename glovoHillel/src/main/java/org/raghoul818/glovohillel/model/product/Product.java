@@ -1,4 +1,4 @@
-package org.raghoul818.glovohillel.model;
+package org.raghoul818.glovohillel.model.product;
 
 import lombok.*;
 
