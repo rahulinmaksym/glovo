@@ -24,9 +24,7 @@ public class WebSecurityConfig {
 
         return http.formLogin(AbstractAuthenticationFilterConfigurer::permitAll)
                 .authorizeRequests(authorize -> authorize
-                        .requestMatchers(
-                                "/"
-                        ).permitAll()
+                        .requestMatchers(HttpMethod.GET).permitAll()
                         .requestMatchers(HttpMethod.DELETE).hasRole("ADMIN1")
                         .requestMatchers(HttpMethod.PUT).hasRole("ADMIN2")
                         .requestMatchers(HttpMethod.POST).hasRole("USER")

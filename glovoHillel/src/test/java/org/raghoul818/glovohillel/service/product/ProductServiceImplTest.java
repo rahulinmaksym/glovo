@@ -11,11 +11,9 @@ import org.raghoul818.glovohillel.dto.product.ProductDto;
 import org.raghoul818.glovohillel.mapper.product.ProductMapper;
 import org.raghoul818.glovohillel.model.product.Product;
 import org.raghoul818.glovohillel.repository.product.ProductRepository;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-
 import static org.junit.jupiter.api.Assertions.assertThrowsExactly;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.ArgumentMatchers.anyInt;
@@ -129,9 +127,6 @@ public class ProductServiceImplTest {
 
     @Test
     public void shouldDeleteProductById() {
-
-        when(productRepository.findById(anyInt())).thenReturn(Optional.of(product));
-        when(productMapper.productToProductDto(product)).thenReturn(productDto);
 
         testInstance.deleteById(ID);
 
